@@ -1,0 +1,84 @@
+/* Name selector */
+h1{
+    background-color: aqua;
+}
+/* ID selector */
+#one{
+    background-color: red;
+}
+/* Class selector */
+.two{
+    background-color: chartreuse;
+}
+/* Attribute selector */
+a[href='http://google.com']{
+    background-color: deeppink;
+}
+/* Attribute selector (first word using ^) */
+a[href^='http']{
+    background-color: maroon;
+}
+/* Attribute selector (last word using $) */
+a[href$='com']{
+    background-color: rgb(128, 126, 0);
+}
+/* Attribute selector (any word using *) */
+a[href*='face']{
+    background-color: rgb(255, 0, 4);
+}
+/* Combination Selector */
+div p{
+    background-color: violet;
+}
+
+/* Advance selector */
+ol > li{
+    border: 2px solid red;
+}
+
+/* Advance selector */
+/* div{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+div:hover{
+    background-color: aqua;
+    border-radius: 50%;
+} */
+
+/* li:first-child{
+    background-color: blue;
+}
+
+li:nth-of-type(2){
+    background-color: blueviolet;
+}
+
+li:last-child{
+    background-color: chartreuse;
+} */
+
+/* #parent{
+    height : 100px;
+    width: 100px;
+    background-color: red;
+} */
+/* #child{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+} */
+
+
+/* Relative Units vh, vw:- */
+/* #parent{
+    height: 80vh;
+    width: 100vw;
+    background-color: red;
+} */
+
+/* li{
+    font-size: 2em;
+} */
